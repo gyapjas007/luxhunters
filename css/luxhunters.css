@@ -1,0 +1,57 @@
+body 
+{
+background-color: black;
+color:yellow;
+}
+
+h2
+{
+	margin-left: 10%;
+	margin-top: 10%; 
+}
+div
+{
+    position:absolute;
+    width:500px;
+    height: 300px;
+     /* border: 1px dashed white; */
+}
+
+#ul
+{
+	top:0px;
+	left:0px;
+	border-right: 1px dashed white;
+	border-bottom: 1px dashed white;
+}
+
+#ur
+{
+	top:0px;
+	left:500px;	
+	border-bottom: 1px dashed white;
+}
+
+#ll
+{
+    /*  */
+    top:300px;
+    left:0px;
+    border-right: 1px dashed white;
+}
+
+#lr
+{
+    /*  */
+   top:300px;
+   left:500px;    
+}
+
+#center_scroll
+{
+    /*  */
+    border:3px dashed red;
+    z-index: 1;
+    background-color: #111111;
+    cursor: e-resize;
+  }
